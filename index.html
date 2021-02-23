@@ -51,19 +51,34 @@
 		   <!--checkboxes-->
 		  <legend> <h3>My Availabity</h3> </legend>
 		   <div>
-            <label><input type="checkbox" name="available_field[]" value="red">Sunday</label>
-            <label>Saturday <input type="checkbox" name="available_field[]" value="blue" ></label>
-            <label>Friday <input type="checkbox" name="available_field[]" value="green" checked></label>
-            <label>Thursday<input type="checkbox" name="available_field[]" value="dog"></label>
-	        <label>Wednesday <input type="checkbox" name="available_field[]" value="red"></label>
-            <label>Tuesday <input type="checkbox" name="available_field[]" value="blue" ></label>
-            <label>Monday <input type="checkbox" name="available_field[]" value="green" checked></label>
+            <label><input type="checkbox" name="available_field[]" value="Sunday">Sunday</label>
+           </div>
+		   <div>
+			<label><input type="checkbox" name="available_field[]" value="Saturday" >Saturday</label>
+           </div>
+		   <div>
+			<label><input type="checkbox" name="available_field[]" value="Friday" checked>Friday</label>
+           </div> 
+		   <div>
+			<label><input type="checkbox" name="available_field[]" value="Thursday">Thursday</label>
+	       </div>
+		   <div>
+			<label><input type="checkbox" name="available_field[]" value="Wednesday">Wednesday</label>
+           </div>
+		   <div>
+			<label><input type="checkbox" name="available_field[]" value="Tuesday" >Tuesday</label>
+           </div>
+           <div>		   
+			<label><input type="checkbox" name="available_field[]" value="Monday" checked>Monday</label>
            </div>
 		 <!--multiline text entry-->
 		   <div>
 		     <label for="comment_textarea">Comments:</label><textarea cols="30" rows="10" name="comments_field" placeholder="Comments" id="comment_textarea"></textarea>
 		   </div>
 		</fieldset>
+		    <div>
+             <input type="hidden" name="hidden_field" value="Magda">
+            </div>
 		<input type="submit" value="Complete the Form">
 	  </form>
 	</body>
