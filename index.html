@@ -48,17 +48,21 @@
 	    </fieldset>
 		
 		<fieldset>
-		<legend> <h3>My Availabity</h3> </legend>
+		   <!--checkboxes-->
+		  <legend> <h3>My Availabity</h3> </legend>
+		   <div>
+            <label>Sunday <input type="checkbox" name="available_field[]" value="red"></label>
+            <label>Saturday <input type="checkbox" name="available_field[]" value="blue" ></label>
+            <label>Friday <input type="checkbox" name="available_field[]" value="green" checked></label>
+            <label>Thursday<input type="checkbox" name="available_field[]" value="dog"></label>
+	        <label>Wednesday <input type="checkbox" name="available_field[]" value="red"></label>
+            <label>Tuesday <input type="checkbox" name="available_field[]" value="blue" ></label>
+            <label>Monday <input type="checkbox" name="available_field[]" value="green" checked></label>
+           </div>
+		 <!--multiline text entry-->
 		 <div>
-          <label>Sunday <input type="checkbox" name="available_field[]" value="red"></label>
-          <label>Saturday <input type="checkbox" name="available_field[]" value="blue" ></label>
-          <label>Friday <input type="checkbox" name="available_field[]" value="green" checked></label>
-          <label>Thursday<input type="checkbox" name="available_field[]" value="dog"></label>
-	      <label>Wednesday <input type="checkbox" name="available_field[]" value="red"></label><br>
-          <label>Tuesday <input type="checkbox" name="available_field[]" value="blue" ></label><br>
-          <label>Monday <input type="checkbox" name="available_field[]" value="green" checked></label><br>
-         </div>
-		
+		 <label for="comment_textarea">Comments:</label><textarea cols="30" rows="10" name="comments_field" placeholder="Comments" id="comment_textarea"></textarea>
+		 </div>
 		</fieldset>
 		
 	  </form>
